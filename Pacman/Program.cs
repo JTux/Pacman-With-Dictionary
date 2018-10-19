@@ -10,6 +10,8 @@ namespace Pacman
     {
         static void Main(string[] args)
         {
+            var program = new ProgramUI();
+            program.Run();
         }
     }
 }
